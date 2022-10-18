@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div>
             <h2>This is home pages</h2>
-            <h5>user Name: {user.displayName}</h5>
+            <h2>user E-mail: {user?.email}</h2>
         </div>
     );
 };
